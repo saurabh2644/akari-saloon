@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    height: 80px;
+    width: 100vw;
+    background-color: rgb(9, 9, 9);
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 120px;
+    padding: 10px;
+}
+
+.text-decoration-none{
+   text-decoration: none;
+}
+
+.menu{
+    height: 20px;
+    
+    
+}
+
+.contact-no{
+    color:#6b9165 ;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.nav-page{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.book-now {
+    align-items: center;
+    background-image: linear-gradient(144deg,#304435, #6b9165 50%,#314535);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 130px;
+    padding: 14px 10px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-left:80px ;
+  }
+  
+  .book-now:active,
+  .book-now:hover {
+    outline: 0;
+  }
+  
+
+  .our-services{
+    text-align: center;
+    color: #314535;
+    margin: 30px;
+  }
+.cards{
+    height: 300px;
+    width: 250px;
+    margin: 30px 50px;
+}
+
+.our-services-cards{
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.bg-img{
+    height: 500px;
+    width: 100vw;
+  }
+
+.card-1{
+    background-image: url("./../imgs/hair-cut.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-2{
+    background-image: url("./../imgs/makeup.jpeg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-3{
+    background-image: url("./../imgs/facial.jpeg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-4{
+    background-image: url("./../imgs/hair-color.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-5{
+    background-image: url("./../imgs/pedicure.jpeg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-6{
+    background-image: url("./../imgs/massage.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 230px;
+}
+
+.footer{
+    height: 200px;
+    width: 100vw;
+    background-color: #304435;
+}
+
+
+.copy-rights{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 100px;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .contact-no{
+        display: none;
+    }
+
+    .nav-page{
+        display: none;
+    }
+
+    .menu{
+        height: 20px;
+        background-color: aliceblue;
+       position:fixed;
+       right: 10px;
+        
+    }
+
+    .book-now {
+        font-size: 14px;
+        min-width: 100px;
+        padding: 10px 10px;
+       position: fixed;
+       right: 50px;
+ 
+    }
+
+ .bg-img{
+    height: 300px;
+  }
+
+  .cards{
+    margin: 10px 50px;
+}
+
+.footer{
+    height: 150px;
+  
+    
+}
+
+.copy-rights{
+   
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top: 80px;
+}
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+    .nav-page{
+        display: none;
+    }
+
+    .menu{
+        height: 20px;
+        background-color: aliceblue;
+       position:fixed;
+       right: 10px;
+       top: 30px;
+        
+    }
+
+    .book-now {
+        font-size: 14px;
+        min-width: 100px;
+        padding: 10px 10px;
+       position: fixed;
+       right: 50px;
+       top: 30px;
+ 
+    }
+
+}
+
+
+
+
+
+
+
+
+ 
+
+
+ 
